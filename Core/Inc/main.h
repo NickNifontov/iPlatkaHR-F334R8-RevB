@@ -66,6 +66,12 @@ void Error_Handler(void);
 #define OSC_IN_GPIO_Port GPIOF
 #define OSC_OUT_Pin GPIO_PIN_1
 #define OSC_OUT_GPIO_Port GPIOF
+#define ADC_V_OP_Pin GPIO_PIN_0
+#define ADC_V_OP_GPIO_Port GPIOA
+#define ADC_V_Pin GPIO_PIN_1
+#define ADC_V_GPIO_Port GPIOA
+#define DAC_V_Pin GPIO_PIN_4
+#define DAC_V_GPIO_Port GPIOA
 #define PEREK_Pin GPIO_PIN_10
 #define PEREK_GPIO_Port GPIOB
 #define PEREK_EXTI_IRQn EXTI15_10_IRQn
